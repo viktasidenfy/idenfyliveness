@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>idenfySdk</groupId>
   <artifactId>com.idenfy.idenfySdk.idenfyliveness</artifactId>
-  <version>4.9.3</version>
+  <version>4.9.4</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
