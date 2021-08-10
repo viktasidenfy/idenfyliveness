@@ -10,7 +10,7 @@
    <repository>
       <id>google-repo</id>
       <name>Google Repo</name>
-      <url>https://maven.google.com/web/index.html</url>
+      <url>https://maven.google.com/</url>
    </repository>
 </repositories>
 <build>
@@ -27,10 +27,11 @@
          </configuration>
       </plugin>
    </plugins>
-</build>  <modelVersion>4.0.0</modelVersion>
+</build>
+  <modelVersion>4.0.0</modelVersion>
   <groupId>idenfySdk</groupId>
   <artifactId>com.idenfy.idenfySdk.idenfyliveness</artifactId>
-  <version>5.1.4</version>
+  <version>5.1.5</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
