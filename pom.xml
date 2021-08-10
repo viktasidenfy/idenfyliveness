@@ -6,6 +6,13 @@
   <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
+<repositories>
+   <repository>
+      <id>google-repo</id>
+      <name>Google Repo</name>
+      <url>https://maven.google.com/web/index.html</url>
+   </repository>
+</repositories>
 <build>
    <plugins>
       <plugin>
@@ -20,8 +27,7 @@
          </configuration>
       </plugin>
    </plugins>
-</build>
-  <modelVersion>4.0.0</modelVersion>
+</build>  <modelVersion>4.0.0</modelVersion>
   <groupId>idenfySdk</groupId>
   <artifactId>com.idenfy.idenfySdk.idenfyliveness</artifactId>
   <version>5.1.4</version>
